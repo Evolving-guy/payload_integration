@@ -1,0 +1,1 @@
+savedcmd_pixxel_platform_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/7.0.5-arch1-1-g14/build/scripts/module.lds -o pixxel_platform_driver.ko pixxel_platform_driver.o pixxel_platform_driver.mod.o .module-common.o
