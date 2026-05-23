@@ -85,7 +85,7 @@ sudo insmod pixxel_platform_driver.ko
 ### cFS Apps (native)
 ```bash
 cd cFS/
-make native_std.prep CMAKEFLAGS="-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+make native_std.prep  
 make native_std.install
 cd build-native_std/exe/cpu1/
 ./core-cpu1
